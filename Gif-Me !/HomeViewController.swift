@@ -41,13 +41,13 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         blur.bounds = self.view.bounds //size of the blur
-        pop.bounds = CGRect(x: 0, y:0, width:self.view.bounds.width * 0.9 , height: self.view.bounds.height )//0.9 and 0.4
+        pop.bounds = CGRect(x: 0, y:0, width:self.view.bounds.width * 0.9 , height: self.view.bounds.height * 0.2)//0.9 and 0.4
         
         
     }
     func animateOut(desiredView: UIView) {
         UIView.animate(withDuration: 0.3, animations: {
-            desiredView.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
+            desiredView.transform = CGAffineTransform(scaleX: 1.4, y: 1.2)
             desiredView.alpha = 0
         }, completion: { _ in
             desiredView.removeFromSuperview()

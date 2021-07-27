@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4B94F2AD-1280-48FB-9EC5-AD46CF993217"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA32476D-FF6E-4AC5-8CDA-01B2C417863F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gif-Me !/AnimalsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AnimalsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AA32476D-FF6E-4AC5-8CDA-01B2C417863F - e5abfc141ed50c8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gif_Me__.AnimalsViewController.imageButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Gif-Me !"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charlesogodo1/Desktop/Gif-Me/Gif-Me%20!/AnimalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "AA32476D-FF6E-4AC5-8CDA-01B2C417863F - 18df64bf984f5c90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gif_Me__.AnimalsViewController.imageButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Gif-Me !"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charlesogodo1/Desktop/Gif-Me/Gif-Me%20!/AnimalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "AA32476D-FF6E-4AC5-8CDA-01B2C417863F - daee426894ff5edd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gif_Me__.AnimalsViewController.imageButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Gif-Me !"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charlesogodo1/Desktop/Gif-Me/Gif-Me%20!/AnimalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "AA32476D-FF6E-4AC5-8CDA-01B2C417863F - 6a7c62737259a999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gif_Me__.AnimalsViewController.imageButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Gif-Me !"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charlesogodo1/Desktop/Gif-Me/Gif-Me%20!/AnimalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "AA32476D-FF6E-4AC5-8CDA-01B2C417863F - e69155189880358e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gif_Me__.AnimalsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Gif_Me__.AnimalsViewController"
+                  moduleName = "Gif-Me !"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charlesogodo1/Desktop/Gif-Me/Gif-Me%20!/AnimalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "AA32476D-FF6E-4AC5-8CDA-01B2C417863F - db93a1dda38ba389"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gif_Me__.AnimalsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Gif_Me__.AnimalsViewController&gt;"
+                  moduleName = "Gif-Me !"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charlesogodo1/Desktop/Gif-Me/Gif-Me%20!/AnimalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

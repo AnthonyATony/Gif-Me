@@ -9,6 +9,15 @@
           "revision": "76dd4b49110b8624317fc128e7fa0d8a252018bc",
           "version": "5.11.1"
         }
+      },
+      {
+        "package": "SwiftyGif",
+        "repositoryURL": "https://github.com/kirualex/SwiftyGif.git",
+        "state": {
+          "branch": null,
+          "revision": "0cd770feed5807d9fd4fa8df5ad74b56b814b0c8",
+          "version": "5.4.0"
+        }
       }
     ]
   },

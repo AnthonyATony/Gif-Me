@@ -14,6 +14,7 @@ import SDWebImage
 class HomeViewController: UIViewController {
     
     
+    @IBOutlet weak var button: UIButton!
     
     @IBAction func popup(_ sender: UIButton) {
         animateIn(desiredView: blur)
@@ -21,8 +22,7 @@ class HomeViewController: UIViewController {
     }
     
     
-    
-    @IBAction func popDown(_ sender: UIButton) {
+    @IBAction func popdown(_ sender: Any) {
         animateOut(desiredView: pop)
         animateOut(desiredView: blur)
     }

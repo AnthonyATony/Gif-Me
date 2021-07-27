@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1CF9C326AF955F0056C7E2 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF9C226AF955F0056C7E2 /* FoodViewController.swift */; };
+		5B1CF9C526AF956D0056C7E2 /* MemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF9C426AF956D0056C7E2 /* MemesViewController.swift */; };
+		5B1CF9C826B042460056C7E2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5B1CF9C726B042460056C7E2 /* SDWebImage */; };
+		5B1CF9CA26B042460056C7E2 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B1CF9C926B042460056C7E2 /* SDWebImageMapKit */; };
 		C10A6AA726ACB6A900E1744A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AA626ACB6A900E1744A /* AppDelegate.swift */; };
 		C10A6AA926ACB6A900E1744A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AA826ACB6A900E1744A /* SceneDelegate.swift */; };
 		C10A6AAB26ACB6A900E1744A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AAA26ACB6A900E1744A /* HomeViewController.swift */; };
@@ -19,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1CF9C226AF955F0056C7E2 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		5B1CF9C426AF956D0056C7E2 /* MemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesViewController.swift; sourceTree = "<group>"; };
 		C10A6AA326ACB6A900E1744A /* Gif-Me !.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gif-Me !.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10A6AA626ACB6A900E1744A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C10A6AA826ACB6A900E1744A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1CF9CA26B042460056C7E2 /* SDWebImageMapKit in Frameworks */,
+				5B1CF9C826B042460056C7E2 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +54,6 @@
 		C10A6A9A26ACB6A900E1744A = {
 			isa = PBXGroup;
 			children = (
-				C10A6ABE26ACD65100E1744A /* AnimalsViewController.swift */,
 				C10A6AA526ACB6A900E1744A /* Gif-Me ! */,
 				C10A6AA426ACB6A900E1744A /* Products */,
 			);
@@ -63,6 +70,7 @@
 		C10A6AA526ACB6A900E1744A /* Gif-Me ! */ = {
 			isa = PBXGroup;
 			children = (
+				C10A6ABE26ACD65100E1744A /* AnimalsViewController.swift */,
 				C10A6AA626ACB6A900E1744A /* AppDelegate.swift */,
 				C10A6AA826ACB6A900E1744A /* SceneDelegate.swift */,
 				C10A6AAA26ACB6A900E1744A /* HomeViewController.swift */,
@@ -72,6 +80,8 @@
 				C10A6AAF26ACB6AB00E1744A /* Assets.xcassets */,
 				C10A6AB126ACB6AB00E1744A /* LaunchScreen.storyboard */,
 				C10A6AB426ACB6AB00E1744A /* Info.plist */,
+				5B1CF9C226AF955F0056C7E2 /* FoodViewController.swift */,
+				5B1CF9C426AF956D0056C7E2 /* MemesViewController.swift */,
 			);
 			path = "Gif-Me !";
 			sourceTree = "<group>";
@@ -92,6 +102,10 @@
 			dependencies = (
 			);
 			name = "Gif-Me !";
+			packageProductDependencies = (
+				5B1CF9C726B042460056C7E2 /* SDWebImage */,
+				5B1CF9C926B042460056C7E2 /* SDWebImageMapKit */,
+			);
 			productName = "Gif-Me !";
 			productReference = C10A6AA326ACB6A900E1744A /* Gif-Me !.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +133,9 @@
 				Base,
 			);
 			mainGroup = C10A6A9A26ACB6A900E1744A;
+			packageReferences = (
+				5B1CF9C626B042460056C7E2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = C10A6AA426ACB6A900E1744A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10A6ABD26ACC48200E1744A /* SlideinTransition.swift in Sources */,
+				5B1CF9C326AF955F0056C7E2 /* FoodViewController.swift in Sources */,
+				5B1CF9C526AF956D0056C7E2 /* MemesViewController.swift in Sources */,
 				C10A6AAB26ACB6A900E1744A /* HomeViewController.swift in Sources */,
 				C10A6ABF26ACD65100E1744A /* AnimalsViewController.swift in Sources */,
 				C10A6AA726ACB6A900E1744A /* AppDelegate.swift in Sources */,
@@ -351,6 +370,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B1CF9C626B042460056C7E2 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B1CF9C726B042460056C7E2 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B1CF9C626B042460056C7E2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5B1CF9C926B042460056C7E2 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B1CF9C626B042460056C7E2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C10A6A9B26ACB6A900E1744A /* Project object */;
 }

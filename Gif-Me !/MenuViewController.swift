@@ -9,6 +9,8 @@ import UIKit
 enum MenuType: Int {
     case home
     case animals
+    case food
+    case memes
     //case profile
 }
 class MenuViewController: UITableViewController {

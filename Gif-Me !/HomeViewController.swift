@@ -12,18 +12,64 @@ import SDWebImage
 
 
 class HomeViewController: UIViewController {
+    
+    
+    
+    @IBAction func popup(_ sender: UIButton) {
+        animateIn(desiredView: blur)
+        animateIn(desiredView: pop)
+    }
+    
+    
+    
+    @IBAction func popDown(_ sender: UIButton) {
+        animateOut(desiredView: pop)
+        animateOut(desiredView: blur)
+    }
+    
+
+    @IBOutlet var blur: UIVisualEffectView!
+    
     let transition = SlideinTransition()
     var topView: UIView?
     
-//    let imageView = SDAnimatedImageView()
+    @IBOutlet var pop: UIView!
+    //    let imageView = SDAnimatedImageView()
 //    imageView.sd_setImage(with: "https://media.giphy.com/media/GnCc88zZhSVUc/giphy.gif")
 //    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        blur.bounds = self.view.bounds //size of the blur
+        pop.bounds = CGRect(x: 0, y:0, width:self.view.bounds.width * 0.9 , height: self.view.bounds.height )//0.9 and 0.4
         
         
     }
+    func animateOut(desiredView: UIView) {
+        UIView.animate(withDuration: 0.3, animations: {
+            desiredView.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
+            desiredView.alpha = 0
+        }, completion: { _ in
+            desiredView.removeFromSuperview()
+            
+        }
+    )}
+
+    func animateIn(desiredView: UIView) {
+        let backgroundView = self.view!
+        backgroundView.addSubview(desiredView)
+        //view's scaling to be 120%
+        desiredView.transform = CGAffineTransform(scaleX: 2, y: 2)
+        desiredView.alpha = 0
+        desiredView.center = backgroundView.center
+        
+        //animates effects
+        UIView.animate(withDuration: 0.3, animations: {
+            desiredView.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
+            desiredView.alpha = 1
+        })
+    }
+    
     
     
     @IBAction func didTapMenu(_ sender: UIBarButtonItem) {

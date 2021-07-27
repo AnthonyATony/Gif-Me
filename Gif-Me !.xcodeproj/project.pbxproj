@@ -11,6 +11,11 @@
 		5B1CF9C526AF956D0056C7E2 /* MemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF9C426AF956D0056C7E2 /* MemesViewController.swift */; };
 		5B1CF9C826B042460056C7E2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5B1CF9C726B042460056C7E2 /* SDWebImage */; };
 		5B1CF9CA26B042460056C7E2 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B1CF9C926B042460056C7E2 /* SDWebImageMapKit */; };
+		5B1CF9D026B074440056C7E2 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 5B1CF9CF26B074440056C7E2 /* SwiftyGif */; };
+		5B1CF9D226B075070056C7E2 /* stir.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9D126B075070056C7E2 /* stir.gif */; };
+		5B1CF9D426B076070056C7E2 /* bunch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9D326B076070056C7E2 /* bunch.gif */; };
+		5B1CF9D626B076120056C7E2 /* carrot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9D526B076120056C7E2 /* carrot.gif */; };
+		5B1CF9D826B0762C0056C7E2 /* cake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9D726B0762C0056C7E2 /* cake.gif */; };
 		C10A6AA726ACB6A900E1744A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AA626ACB6A900E1744A /* AppDelegate.swift */; };
 		C10A6AA926ACB6A900E1744A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AA826ACB6A900E1744A /* SceneDelegate.swift */; };
 		C10A6AAB26ACB6A900E1744A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AAA26ACB6A900E1744A /* HomeViewController.swift */; };
@@ -25,6 +30,10 @@
 /* Begin PBXFileReference section */
 		5B1CF9C226AF955F0056C7E2 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		5B1CF9C426AF956D0056C7E2 /* MemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesViewController.swift; sourceTree = "<group>"; };
+		5B1CF9D126B075070056C7E2 /* stir.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stir.gif; sourceTree = "<group>"; };
+		5B1CF9D326B076070056C7E2 /* bunch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bunch.gif; sourceTree = "<group>"; };
+		5B1CF9D526B076120056C7E2 /* carrot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = carrot.gif; sourceTree = "<group>"; };
+		5B1CF9D726B0762C0056C7E2 /* cake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cake.gif; sourceTree = "<group>"; };
 		C10A6AA326ACB6A900E1744A /* Gif-Me !.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gif-Me !.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10A6AA626ACB6A900E1744A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C10A6AA826ACB6A900E1744A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +54,7 @@
 			files = (
 				5B1CF9CA26B042460056C7E2 /* SDWebImageMapKit in Frameworks */,
 				5B1CF9C826B042460056C7E2 /* SDWebImage in Frameworks */,
+				5B1CF9D026B074440056C7E2 /* SwiftyGif in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +92,10 @@
 				C10A6AB426ACB6AB00E1744A /* Info.plist */,
 				5B1CF9C226AF955F0056C7E2 /* FoodViewController.swift */,
 				5B1CF9C426AF956D0056C7E2 /* MemesViewController.swift */,
+				5B1CF9D126B075070056C7E2 /* stir.gif */,
+				5B1CF9D326B076070056C7E2 /* bunch.gif */,
+				5B1CF9D526B076120056C7E2 /* carrot.gif */,
+				5B1CF9D726B0762C0056C7E2 /* cake.gif */,
 			);
 			path = "Gif-Me !";
 			sourceTree = "<group>";
@@ -105,6 +119,7 @@
 			packageProductDependencies = (
 				5B1CF9C726B042460056C7E2 /* SDWebImage */,
 				5B1CF9C926B042460056C7E2 /* SDWebImageMapKit */,
+				5B1CF9CF26B074440056C7E2 /* SwiftyGif */,
 			);
 			productName = "Gif-Me !";
 			productReference = C10A6AA326ACB6A900E1744A /* Gif-Me !.app */;
@@ -135,6 +150,7 @@
 			mainGroup = C10A6A9A26ACB6A900E1744A;
 			packageReferences = (
 				5B1CF9C626B042460056C7E2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				5B1CF9CE26B074440056C7E2 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
 			);
 			productRefGroup = C10A6AA426ACB6A900E1744A /* Products */;
 			projectDirPath = "";
@@ -151,8 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10A6AB326ACB6AB00E1744A /* LaunchScreen.storyboard in Resources */,
+				5B1CF9D826B0762C0056C7E2 /* cake.gif in Resources */,
+				5B1CF9D626B076120056C7E2 /* carrot.gif in Resources */,
 				C10A6AB026ACB6AB00E1744A /* Assets.xcassets in Resources */,
+				5B1CF9D226B075070056C7E2 /* stir.gif in Resources */,
 				C10A6AAE26ACB6A900E1744A /* Main.storyboard in Resources */,
+				5B1CF9D426B076070056C7E2 /* bunch.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +400,14 @@
 				minimumVersion = 5.11.1;
 			};
 		};
+		5B1CF9CE26B074440056C7E2 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -392,6 +420,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5B1CF9C626B042460056C7E2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		5B1CF9CF26B074440056C7E2 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B1CF9CE26B074440056C7E2 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

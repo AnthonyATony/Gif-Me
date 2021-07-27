@@ -432,6 +432,9 @@
                                 <rect key="frame" x="28" y="783" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Gifs"/>
+                                <connections>
+                                    <action selector="onGifButtonPressed:" destination="mHy-r3-mNA" eventType="touchUpInside" id="UkT-MS-oLT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pSN-aG-rCY"/>
@@ -482,6 +485,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="28U-kV-0rp"/>
+                    <connections>
+                        <outlet property="mediaImage2" destination="gH8-gl-08S" id="9JM-T5-cuD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTk-Ai-2Ia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

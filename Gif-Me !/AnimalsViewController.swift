@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import SwiftyGif
 class AnimalsViewController: UIViewController {
     
     @IBOutlet weak var images: UIImageView!
@@ -28,10 +28,22 @@ class AnimalsViewController: UIViewController {
     var favoriteAnimals = [""]
   var x = 0
     
+    var gifFoods = ["bunch.gif", "carrot.gif", "stir.gif", "cake.gif"]
+    
     @IBAction func upVote(_ sender: UIButton) {
            
         
         }
+    @IBAction func onGifButtonPressed(_ sender: UIButton) {
+        let randomGif = gifFoods.randomElement()
+        do {
+            let gif = try UIImage(gifName: randomGif!)
+            self.images.setGifImage(gif, loopCount: -1)
+        } catch  {
+            print(error)
+        }
+        
+    }
     
     
     @IBAction func buttonImages(_ sender: UIButton) {

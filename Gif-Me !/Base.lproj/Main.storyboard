@@ -545,6 +545,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oxX-bm-RzV">
                                 <rect key="frame" x="20" y="144" width="374" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -580,6 +581,18 @@
                                 <connections>
                                     <action selector="onGifButton2Pressed:" destination="mmA-es-LCQ" eventType="touchUpInside" id="CKa-T1-Gba"/>
                                     <action selector="onGifButtonPressed:" destination="mHy-r3-mNA" eventType="touchUpInside" id="AEc-iM-FUq"/>
+=======
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kcb-01-8Sl">
+                                <rect key="frame" x="87" y="198" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzR-Ts-ZA8">
+                                <rect key="frame" x="184" y="548" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonImages:" destination="uxy-vy-uc5" eventType="touchUpInside" id="ylo-NA-9Zp"/>
+>>>>>>> 32068fae14a967d87c86f8eabe00269452b57165
                                 </connections>
                             </button>
                         </subviews>
@@ -587,6 +600,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="GZ5-Ay-GBB"/>
+                    <connections>
+                        <outlet property="imageMemes" destination="Kcb-01-8Sl" id="oME-RX-nzD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FSU-75-nJl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="mmA-es-LCQ" userLabel="Exit" sceneMemberID="exit"/>

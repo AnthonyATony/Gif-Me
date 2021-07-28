@@ -14,7 +14,20 @@ class MemesViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    var memes = ["meme1", "meme2", "meme3", "meme4", "meme5", "meme6"]
     
+    @IBOutlet weak var imageMemes: UIImageView!
+    @IBAction func buttonImages(_ sender: UIButton) {
+       
+    
+        let r = Int(arc4random_uniform(UInt32(memes.count)))
+            imageMemes.image = UIImage(named: memes[r] )
+            
+            
+            
+            
+        }
+    }
 
     /*
     // MARK: - Navigation
@@ -26,4 +39,5 @@ class MemesViewController: UIViewController {
     }
     */
 
-}
+
+

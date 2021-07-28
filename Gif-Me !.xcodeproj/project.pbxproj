@@ -16,6 +16,12 @@
 		5B1CF9D426B076070056C7E2 /* bunch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9D326B076070056C7E2 /* bunch.gif */; };
 		5B1CF9D626B076120056C7E2 /* carrot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9D526B076120056C7E2 /* carrot.gif */; };
 		5B1CF9D826B0762C0056C7E2 /* cake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9D726B0762C0056C7E2 /* cake.gif */; };
+		5B1CF9E126B196130056C7E2 /* animalgifgif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9DB26B196120056C7E2 /* animalgifgif2.gif */; };
+		5B1CF9E226B196130056C7E2 /* animalgifgif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9DC26B196130056C7E2 /* animalgifgif1.gif */; };
+		5B1CF9E326B196130056C7E2 /* animalgifgif5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9DD26B196130056C7E2 /* animalgifgif5.gif */; };
+		5B1CF9E426B196130056C7E2 /* animalgifgif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9DE26B196130056C7E2 /* animalgifgif3.gif */; };
+		5B1CF9E526B196130056C7E2 /* animalgifgif6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9DF26B196130056C7E2 /* animalgifgif6.gif */; };
+		5B1CF9E626B196130056C7E2 /* animalgifgif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF9E026B196130056C7E2 /* animalgifgif4.gif */; };
 		C10A6AA726ACB6A900E1744A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AA626ACB6A900E1744A /* AppDelegate.swift */; };
 		C10A6AA926ACB6A900E1744A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AA826ACB6A900E1744A /* SceneDelegate.swift */; };
 		C10A6AAB26ACB6A900E1744A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A6AAA26ACB6A900E1744A /* HomeViewController.swift */; };
@@ -34,6 +40,12 @@
 		5B1CF9D326B076070056C7E2 /* bunch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bunch.gif; sourceTree = "<group>"; };
 		5B1CF9D526B076120056C7E2 /* carrot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = carrot.gif; sourceTree = "<group>"; };
 		5B1CF9D726B0762C0056C7E2 /* cake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cake.gif; sourceTree = "<group>"; };
+		5B1CF9DB26B196120056C7E2 /* animalgifgif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animalgifgif2.gif; sourceTree = "<group>"; };
+		5B1CF9DC26B196130056C7E2 /* animalgifgif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animalgifgif1.gif; sourceTree = "<group>"; };
+		5B1CF9DD26B196130056C7E2 /* animalgifgif5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animalgifgif5.gif; sourceTree = "<group>"; };
+		5B1CF9DE26B196130056C7E2 /* animalgifgif3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animalgifgif3.gif; sourceTree = "<group>"; };
+		5B1CF9DF26B196130056C7E2 /* animalgifgif6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animalgifgif6.gif; sourceTree = "<group>"; };
+		5B1CF9E026B196130056C7E2 /* animalgifgif4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animalgifgif4.gif; sourceTree = "<group>"; };
 		C10A6AA326ACB6A900E1744A /* Gif-Me !.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gif-Me !.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10A6AA626ACB6A900E1744A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C10A6AA826ACB6A900E1744A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +108,12 @@
 				5B1CF9D326B076070056C7E2 /* bunch.gif */,
 				5B1CF9D526B076120056C7E2 /* carrot.gif */,
 				5B1CF9D726B0762C0056C7E2 /* cake.gif */,
+				5B1CF9DC26B196130056C7E2 /* animalgifgif1.gif */,
+				5B1CF9DB26B196120056C7E2 /* animalgifgif2.gif */,
+				5B1CF9DE26B196130056C7E2 /* animalgifgif3.gif */,
+				5B1CF9E026B196130056C7E2 /* animalgifgif4.gif */,
+				5B1CF9DD26B196130056C7E2 /* animalgifgif5.gif */,
+				5B1CF9DF26B196130056C7E2 /* animalgifgif6.gif */,
 			);
 			path = "Gif-Me !";
 			sourceTree = "<group>";
@@ -167,10 +185,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10A6AB326ACB6AB00E1744A /* LaunchScreen.storyboard in Resources */,
+				5B1CF9E626B196130056C7E2 /* animalgifgif4.gif in Resources */,
+				5B1CF9E526B196130056C7E2 /* animalgifgif6.gif in Resources */,
+				5B1CF9E226B196130056C7E2 /* animalgifgif1.gif in Resources */,
 				5B1CF9D826B0762C0056C7E2 /* cake.gif in Resources */,
 				5B1CF9D626B076120056C7E2 /* carrot.gif in Resources */,
+				5B1CF9E326B196130056C7E2 /* animalgifgif5.gif in Resources */,
 				C10A6AB026ACB6AB00E1744A /* Assets.xcassets in Resources */,
+				5B1CF9E426B196130056C7E2 /* animalgifgif3.gif in Resources */,
 				5B1CF9D226B075070056C7E2 /* stir.gif in Resources */,
+				5B1CF9E126B196130056C7E2 /* animalgifgif2.gif in Resources */,
 				C10A6AAE26ACB6A900E1744A /* Main.storyboard in Resources */,
 				5B1CF9D426B076070056C7E2 /* bunch.gif in Resources */,
 			);

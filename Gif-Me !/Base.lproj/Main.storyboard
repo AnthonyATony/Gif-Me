@@ -488,6 +488,7 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="onGifButton2Pressed:" destination="z6K-EH-J2s" eventType="touchUpInside" id="OoR-bk-HQx"/>
                                     <action selector="onGifButtonPressed:" destination="mHy-r3-mNA" eventType="touchUpInside" id="WNo-hm-LK3"/>
                                 </connections>
                             </button>
@@ -534,7 +535,7 @@
         <!--Memes View Controller-->
         <scene sceneID="ld8-Kf-dmY">
             <objects>
-                <viewController storyboardIdentifier="Memes" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uxy-vy-uc5" customClass="MemesViewController" customModule="Gif_Me__" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Memes" storyboardIdentifier="Memes" id="uxy-vy-uc5" customClass="MemesViewController" customModule="Gif_Me__" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lqc-7k-kgN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -588,7 +589,7 @@
         <!--View Controller-->
         <scene sceneID="aZK-b7-z2J">
             <objects>
-                <viewController id="85h-X2-bjz" sceneMemberID="viewController">
+                <viewController restorationIdentifier="SpecialEffect" storyboardIdentifier="SpecialEffect" id="85h-X2-bjz" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wce-tp-EER">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

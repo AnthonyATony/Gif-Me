@@ -28,14 +28,14 @@ class AnimalsViewController: UIViewController {
     var favoriteAnimals = [""]
   var x = 0
     
-    var gifFoods = ["bunch.gif", "carrot.gif", "stir.gif", "cake.gif"]
+    var animalGifs = ["animalgifgif1.gif", "animalgifgif2.gif", "animalgifgif3.gif", "animalgifgif4.gif", "animalgifgif5.gif", "animalgifgif6.gif"]
     
     @IBAction func upVote(_ sender: UIButton) {
            
         
         }
     @IBAction func onGifButtonPressed(_ sender: UIButton) {
-        let randomGif = gifFoods.randomElement()
+        let randomGif = animalGifs.randomElement()
         do {
             let gif = try UIImage(gifName: randomGif!)
             self.images.setGifImage(gif, loopCount: -1)

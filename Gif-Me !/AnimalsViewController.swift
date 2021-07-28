@@ -47,6 +47,7 @@ class AnimalsViewController: UIViewController {
     
     
     @IBAction func buttonImages(_ sender: UIButton) {
+        images.image = UIImage(named: "" )
         let num = Int.random(in: 0..<3)
         
         if num == 1 {

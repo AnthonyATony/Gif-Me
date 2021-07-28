@@ -464,6 +464,9 @@
                                 <state key="normal" title="Img Me!">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonImages:" destination="z6K-EH-J2s" eventType="touchUpInside" id="6XF-c0-UzB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tsq-ML-QS6"/>
@@ -471,7 +474,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="28U-kV-0rp"/>
                     <connections>
-                        <outlet property="mediaImage2" destination="gH8-gl-08S" id="9JM-T5-cuD"/>
+                        <outlet property="mediaImage2" destination="gH8-gl-08S" id="h5e-ft-3Be"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTk-Ai-2Ia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

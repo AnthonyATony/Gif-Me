@@ -26,16 +26,16 @@ class AnimalsViewController: UIViewController {
     var imageCats = ["cat 1", "cat 2", "cat 3"]
     var imageBirds = ["bird1", "bird2", "bird3"]
     var favoriteAnimals = [""]
-  var x = 0
+    var x = 0
     
-    var gifFoods = ["bunch.gif", "carrot.gif", "stir.gif", "cake.gif"]
+    var animalGifs = ["animalgifgif1.gif", "animalgifgif2.gif", "animalgifgif3.gif", "animalgifgif4.gif", "animalgifgif5.gif", "animalgifgif6.gif"]
     
     @IBAction func upVote(_ sender: UIButton) {
-           
         
-        }
+        
+    }
     @IBAction func onGifButtonPressed(_ sender: UIButton) {
-        let randomGif = gifFoods.randomElement()
+        let randomGif = animalGifs.randomElement()
         do {
             let gif = try UIImage(gifName: randomGif!)
             self.images.setGifImage(gif, loopCount: -1)
@@ -51,7 +51,7 @@ class AnimalsViewController: UIViewController {
         let num = Int.random(in: 0..<3)
         
         if num == 1 {
-        let r = Int(arc4random_uniform(UInt32(imageCats.count)))
+            let r = Int(arc4random_uniform(UInt32(imageCats.count)))
             images.image = UIImage(named: imageCats[r] )
             
             
@@ -64,10 +64,10 @@ class AnimalsViewController: UIViewController {
             images.image = UIImage(named: imageDogs[r] )
             
             
-          
-                
-                
-            }
+            
+            
+            
+        }
         
         
         if num == 2 {
@@ -76,20 +76,20 @@ class AnimalsViewController: UIViewController {
             
             images.image = UIImage(named: imageBirds[r] )
             
-          
-       
             
-           
-            }
-                
-            }
+            
+            
+            
         }
-
-   
-    
-       
-    
-    
         
-    
+    }
+}
+
+
+
+
+
+
+
+
 
